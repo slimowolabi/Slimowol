@@ -188,7 +188,7 @@ def do_login():
         input(f"{C.DIM}Press Enter to return to menu...{C.RESET}")
         return
 
-    ck = input(f"{C.YELLOW} ➤ Enter Fresh Cookie : {C.GREEN}").strip()ck = input(f"{C.YELLOW} ➤ Enter Fresh Cookie : {C.GREEN}").strip()
+    ck = input(f"{C.YELLOW} ➤ Enter Fresh Cookie : {C.GREEN}").strip()
     print(LINE)
 
     info("Validating cookie with Facebook...")
